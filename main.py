@@ -5,8 +5,6 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.dispatcher import FSMContext
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from threading import Timer
-CREDENTIALS_FILE = 'python-parser-399821-4a635701fe08.json' 
-API_TOKEN = '6062085327:AAH7OiEKdvPSBDqItjnI4MTSdMoCvGblRxw'
 
 
 def clear_local_storage():
